@@ -1,0 +1,9 @@
+num=int(input("ENTER THE NUMBER OF ELEMENTS IN THE LIST:"));
+list=[];
+for x in range (num):
+    data=int(input());
+    list.append(data);
+print("output:",end="")
+for y in list:
+    if(y>=0):
+        print(y,end=",");
